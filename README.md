@@ -82,7 +82,7 @@ server: [ *player2 :: yaku = TWO_PAIR && cards = d2-a2-c3-b3-d10 ]
 下りていない人のカードを表示
 略
 
-server: [ winner = player1 && price = 1550 ]
+server: [ winner = player1 && prize = 1550 ]
 server: [ money :: player3 = 3550 && player2 = 200 && player4 = 950 && player1 = 300 ]
 
 #次のゲームへ
